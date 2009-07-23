@@ -1,5 +1,5 @@
 # Require our stack
-%w(essential apache scm ruby_enterprise memcached mysql).each do |r|
+%w(apache scm ruby_enterprise memcached mysql).each do |r|
   require File.join(File.dirname(__FILE__), 'stack', r)
 end
 
